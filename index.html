@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <!--=============== FAVICON ===============-->
+   <link rel="shortcut icon" href="assets/img/favicon.svg" type="image/x-icon">
+
+   <!--=============== SWIPER CSS ===============-->
+   <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+   <!--=============== REMIXICONS ===============-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+
+   <!--=============== CSS ===============-->
+   <link rel="stylesheet" href="assets/css/styles.css">
+
+   <title>Renom Studios</title>
+</head>
+
+<body>
+   <div class="tv-frame"></div>
+   <div class="tv-static"></div>
+   <!-- Custom Cursor -->
+   <span id="cursor">
+      <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor"
+         class="bi bi-gear-wide-connected" viewBox="0 0 16 16">
+         <path
+            d="M7.068.727c.243-.97 1.62-.97 1.864 0l.071.286a.96.96 0 0 0 1.622.434l.205-.211c.695-.719 1.888-.03 1.613.931l-.08.284a.96.96 0 0 0 1.187 1.187l.283-.081c.96-.275 1.65.918.931 1.613l-.211.205a.96.96 0 0 0 .434 1.622l.286.071c.97.243.97 1.62 0 1.864l-.286.071a.96.96 0 0 0-.434 1.622l.211.205c.719.695.03 1.888-.931 1.613l-.284-.08a.96.96 0 0 0-1.187 1.187l.081.283c.275.96-.918 1.65-1.613.931l-.205-.211a.96.96 0 0 0-1.622.434l-.071.286c-.243.97-1.62.97-1.864 0l-.071-.286a.96.96 0 0 0-1.622-.434l-.205.211c-.695.719-1.888.03-1.613-.931l.08-.284a.96.96 0 0 0-1.186-1.187l-.284.081c-.96.275-1.65-.918-.931-1.613l.211-.205a.96.96 0 0 0-.434-1.622l-.286-.071c-.97-.243-.97-1.62 0-1.864l.286-.071a.96.96 0 0 0 .434-1.622l-.211-.205c-.719-.695-.03-1.888.931-1.613l.284.08a.96.96 0 0 0 1.187-1.186l-.081-.284c-.275-.96.918-1.65 1.613-.931l.205.211a.96.96 0 0 0 1.622-.434zM12.973 8.5H8.25l-2.834 3.779A4.998 4.998 0 0 0 12.973 8.5m0-1a4.998 4.998 0 0 0-7.557-3.779l2.834 3.78zM5.048 3.967l-.087.065zm-.431.355A4.98 4.98 0 0 0 3.002 8c0 1.455.622 2.765 1.615 3.678L7.375 8zm.344 7.646.087.065z" />
+      </svg>
+   </span>
+
+   <!--==================== HEADER ====================-->
+   <header class="header" id="header">
+      <nav class="nav container">
+         <a href="#" class="nav__logo">RENOM STUDIOS</a>
+
+         <div class="nav__menu" id="nav-menu">
+            <ul class="nav__list">
+               <li>
+                  <a href="#home" class="nav__link active-link">Home</a>
+               </li>
+
+               <li>
+                  <a href="#about" class="nav__link">About</a>
+               </li>
+
+               <li>
+                  <a href="#models" class="nav__link">Models</a>
+               </li>
+
+               <li>
+                  <a href="#info" class="nav__link">Information</a>
+               </li>
+
+               <li>
+                  <a href="#contact" class="nav__link">Contact</a>
+               </li>
+            </ul>
+
+            <div class="nav__close" id="nav-close">
+               <i class="ri-close-large-line"></i>
+            </div>
+         </div>
+
+         <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-menu-line"></i>
+         </div>
+      </nav>
+   </header>
+
+   <!--==================== MAIN ====================-->
+   <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home grid section" id="home">
+         <img src="assets/img/home-bg-modified.png" alt="image" class="home__bg">
+         <div class="home__gradient"></div>
+
+         <div class="home__data">
+            <h3 class="home__subtitle">SILENT MOVES</h3>
+            <h1 class="home__title">LOUD RESULTS</h1>
+         </div>
+
+         <div class="home__swiper swiper">
+            <div class="swiper-wrapper">
+               <article class="home__article swiper-slide">
+                  <img src="assets/img/home-car-1.png" alt="image" class="home__img">
+               </article>
+
+               <article class="home__article swiper-slide">
+                  <img src="assets/img/home-car-2.png" alt="image" class="home__img">
+               </article>
+
+               <article class="home__article swiper-slide">
+                  <img src="assets/img/home-car-3.png" alt="image" class="home__img">
+               </article>
+
+               <article class="home__article swiper-slide">
+                  <img src="assets/img/home-car-4.png" alt="image" class="home__img">
+               </article>
+            </div>
+         </div>
+
+         <div class="swiper-pagination"></div>
+
+         <a href="#about" class="home__button scroll_icon">
+            <img src="./assets/img/scroll.svg" class="" />
+            <span><small>[START]</small></span>
+         </a>
+      </section>
+
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+         <div class="about__container container grid">
+            <div class="about__data">
+               <h2 class="section__title about__title">
+                  DESIGNED TO <br>
+                  <span>GO BEYOND</span> <br>
+                  PERFORMANCE
+               </h2>
+
+               <p class="about__description">
+                  Revolutionary thinking is at the heart of
+                  every Lamborghini car idea, whether it is
+                  the design inspired by the aerospace
+                  industry or the technologies applied to
+                  natural aspiration.
+               </p>
+
+               <a href="#" class="button button__ghost">
+                  DETAILS <i class="ri-arrow-right-s-line"></i>
+               </a>
+            </div>
+
+            <div class="about__video">
+               <video src="assets/img/about-vid.mp4" autoplay loop muted class="about__file"></video>
+            </div>
+         </div>
+      </section>
+
+      <!--==================== MODELS ====================-->
+      <section class="models section" id="models">
+         <h2 class="section__title">
+            INSPIRED BY <br>
+            COLORS OF NATURE
+         </h2>
+
+         <div class="models__container container grid">
+            <article class="models__card">
+               <img src="assets/img/model-car-1.png" alt="image" class="models__img">
+               <div class="models__gradient"></div>
+
+               <div class="models__data">
+                  <h3 class="models__name">Silver Renom Studios</h3>
+                  <span class="models__info">355km/s</span>
+               </div>
+            </article>
+
+            <article class="models__card">
+               <img src="assets/img/model-car-2.png" alt="image" class="models__img">
+               <div class="models__gradient"></div>
+
+               <div class="models__data">
+                  <h3 class="models__name">Yellow Renom Studios</h3>
+                  <span class="models__info">355km/s</span>
+               </div>
+            </article>
+
+            <article class="models__card">
+               <img src="assets/img/model-car-3.png" alt="image" class="models__img">
+               <div class="models__gradient"></div>
+
+               <div class="models__data">
+                  <h3 class="models__name">Blue Renom Studios</h3>
+                  <span class="models__info">355km/s</span>
+               </div>
+            </article>
+         </div>
+      </section>
+
+      <!--==================== INFORMATION ====================-->
+      <section class="info section" id="info">
+         <span class="section__subtitle">CHOOSE YOUR Renom Studios</span>
+         <h2 class="section__title info__title">
+            Renom Studios LP <br>
+            780-4 ULTIMAE
+         </h2>
+
+         <div class="info__container container grid">
+            <div class="info__content">
+               <h1 class="info__number">780-4</h1>
+               <img src="assets/img/info-car.png" alt="image" class="info__img">
+            </div>
+
+            <div class="info__data">
+               <div class="info__group">
+                  <h3>POWER (KW)</h3>
+                  <p>780 CV (574 kW) <br> 8.500 rpm</p>
+               </div>
+
+               <div class="info__group">
+                  <h3>MAX. SPEED</h3>
+                  <p>355 km/h</p>
+               </div>
+
+               <div class="info__group">
+                  <h3>0-100 KM/H</h3>
+                  <p>2.8 - 2.9s</p>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!--==================== CONTACT ====================-->
+      <section class="contact section" id="contact">
+         <div class="contact__container container grid">
+            <div class="contact__content">
+               <h2 class="section__title contact__title">
+                  Subscribe to Renom Studios
+               </h2>
+
+               <form action="#" class="contact__form grid">
+                  <div class="contact__inputs grid">
+                     <div class="contact__box">
+                        <label for="name" class="contact__label">Full Name</label>
+                        <input type="text" id="name" placeholder="Enter names" class="contact__input">
+                     </div>
+
+                     <div class="contact__box">
+                        <label for="email" class="contact__label">Email Address</label>
+                        <input type="email" id="email" placeholder="Enter email" class="contact__input">
+                     </div>
+
+                     <div class="contact__box">
+                        <label for="message" class="contact__label">Message</label>
+                        <input type="text" id="message" placeholder="How Can We Help You ?" class="contact__input">
+                     </div>
+                  </div>
+
+                  <button class="button contact__button">
+                     SEND <img src="assets/img/send.svg" class="send_icon" alt="send">
+                  </button>
+               </form>
+            </div>
+
+            <img src="assets/img/contact-car.png" alt="image" class="contact__img">
+         </div>
+      </section>
+   </main>
+
+   <!--==================== FOOTER ====================-->
+
+
+   <footer class="footer">
+      <div class="footer__container container grid">
+         <a href="#" class="footer__logo">Renom Studios</a>
+         <ul class="footer__links">
+            <li><a href="#" class="footer__link">Privacy & Legal</a></li>
+            <li><a href="#" class="footer__link">Contact</a></li>
+            <li><a href="#" class="footer__link">Locations</a></li>
+            <li><a href="#" class="footer__link">News</a></li>
+            <li><a href="#" class="footer__link">Forums</a></li>
+         </ul>
+         <div class="footer__social">
+            <a href="#" target="_blank" class="footer__social-link"><i class="ri-facebook-circle-line"></i></a>
+            <a href="#" target="_blank" class="footer__social-link"><i class="ri-instagram-line"></i></a>
+            <a href="#" target="_blank" class="footer__social-link"><i class="ri-twitter-x-line"></i></a>
+         </div>
+      </div>
+      <span class="footer__copy">&#169; All Rights Reserved By Renom Studios</span>
+   </footer>
+
+   <!--========== SCROLL UP ==========-->
+   <a href="#" class="scrollup" id="scroll-up">
+      <img src="./assets/img/arrow.svg" height="40px" width="40px" />
+   </a>
+
+   <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+   <!--=============== SWIPER JS ===============-->
+   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+   <!--=============== MAIN JS ===============-->
+   <script src="assets/js/main.js"></script>
+</body>
+
+</html>
