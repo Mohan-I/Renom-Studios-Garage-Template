@@ -51,10 +51,10 @@ A high-performance, modern web template designed for automotive studios and gara
 
 ## 👨‍💻 Author
 
-[cite_start]**Mohan Shailendra Yadav** [cite: 2]
+[cite_start]**Mohan Shailendra Yadav**
 
-  * [cite_start]Full Stack Engineer & MCA Student [cite: 3, 21]
-  * [cite_start]Specialized in DSA & Modern Web Tech [cite: 7, 8]
-  * [GitHub](https://www.google.com/search?q=https://github.com/Mohan-l) | [cite_start][LinkedIn](https://www.google.com/search?q=https://linkedin.com/in/mohan-yadav-developer) [cite: 4]
+  * Full Stack Engineer & MCA Student 
+  * Specialized in DSA & Modern Web Tech
+  * [GitHub](https://www.google.com/search?q=https://github.com/Mohan-l) | [LinkedIn](https://www.google.com/search?q=https://linkedin.com/in/mohan-yadav-developer) 
 
 -----
