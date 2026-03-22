@@ -55,6 +55,6 @@ A high-performance, modern web template designed for automotive studios and gara
 
   * Full Stack Engineer & MCA Student 
   * Specialized in DSA & Modern Web Tech
-  * [GitHub](https://github.com/Mohan-l) | [LinkedIn](https://linkedin.com/in/mohan-yadav-developer) 
+  * [GitHub](https://github.com/Mohan-i) | [LinkedIn](https://linkedin.com/in/mohan-yadav-developer) 
 
 -----
