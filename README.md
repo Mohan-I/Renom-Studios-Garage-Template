@@ -58,3 +58,10 @@ A high-performance, modern web template designed for automotive studios and gara
   * [GitHub](https://www.google.com/search?q=https://github.com/Mohan-l) | [cite_start][LinkedIn](https://www.google.com/search?q=https://linkedin.com/in/mohan-yadav-developer) [cite: 4]
 
 -----
+
+I will be back from 04-04-2026
+
+"Whatever Happened Happens for Good, Let's rebuild from tommorrow!"
+
+
+"Belive in Yourself, find a way and belive in that path"
