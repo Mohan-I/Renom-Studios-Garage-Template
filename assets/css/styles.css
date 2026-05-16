@@ -1,5 +1,6 @@
 /*=============== GOOGLE FONTS ===============*/
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&amp;display=swap");
+
 @font-face {
   font-family: 'CargoFrame';
   src: url('../fonts/cargoframedemo.otf');
@@ -9,6 +10,7 @@
   font-family: 'Carina-Regular';
   src: url('../fonts/Carina-Regular.otf');
 }
+
 /*=============== VARIABLES CSS ===============*/
 :root {
   --header-height: 3.5rem;
@@ -16,23 +18,32 @@
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
   /* Main Theme Colors - Derived from the sand and light */
-  --first-color: hsl(0, 0%, 90%);           /* Lightest sand/highlight */
-  --first-color-alt: hsl(0, 0%, 80%);       /* Mid-tone gray from the road */
-  
+  --first-color: hsl(0, 0%, 90%);
+  /* Lightest sand/highlight */
+  --first-color-alt: hsl(0, 0%, 80%);
+  /* Mid-tone gray from the road */
+
   /* Text Colors - High contrast for readability */
-  --text-color: hsl(0, 0%, 15%);           /* Deep charcoal for main text */
-  --text-color-lighten: hsl(0, 0%, 45%);   /* Muted gray for secondary text */
-  
+  --text-color: hsl(0, 0%, 15%);
+  /* Deep charcoal for main text */
+  --text-color-lighten: hsl(0, 0%, 45%);
+  /* Muted gray for secondary text */
+
   /* Utility Colors */
-  --black-color: hsl(0, 0%, 5%);            /* Deepest shadows in the dunes */
-  --white-color: hsl(0, 0%, 100%);          /* Pure white for accents */
-  
+  --black-color: hsl(0, 0%, 5%);
+  /* Deepest shadows in the dunes */
+  --white-color: hsl(0, 0%, 100%);
+  /* Pure white for accents */
+
   /* Background Colors */
-  --body-color: hsl(0, 0%, 96%);           /* Off-white/very light gray base */
-  --body-second-color: hsl(0, 0%, 70%);    /* Distant mountain haze color */
-  
+  --body-color: hsl(0, 0%, 96%);
+  /* Off-white/very light gray base */
+  --body-second-color: hsl(0, 0%, 70%);
+  /* Distant mountain haze color */
+
   /* Shadows */
-  --shadow-img: -8px 8px 24px hsla(0, 0%, 0%, .15); /* Softer, realistic shadow */
+  --shadow-img: -8px 8px 24px hsla(0, 0%, 0%, .15);
+  /* Softer, realistic shadow */
 
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
@@ -78,51 +89,64 @@
   margin: 0;
 }
 
-html, body, a, button, input, textarea {
-    scroll-behavior: smooth;
-    cursor: none !important;
+html,
+body,
+a,
+button,
+input,
+textarea {
+  scroll-behavior: smooth;
+  cursor: none !important;
 }
 
 /* Cursor styling */
 #cursor {
-    position: fixed;
-    transform: translate(-100%, -100%);
-    pointer-events: none;
-    transition: transform 0.1s ease-out; 
-    will-change: transform;
-    animation: spin 2s linear infinite;
-    z-index: 100;
+  position: fixed;
+  transform: translate(-100%, -100%);
+  pointer-events: none;
+  transition: transform 0.1s ease-out;
+  will-change: transform;
+  animation: spin 2s linear infinite;
+  z-index: 100;
 }
 
 
 @keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 .tv-frame {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    /* Inset shadow creates the "border" effect without adding width to the element */
-    box-shadow: inset 0 0 150px 50px rgba(0, 0, 0, 0.9); 
-    pointer-events: none; /* Essential so you can still click buttons underneath */
-    z-index: 999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  /* Inset shadow creates the "border" effect without adding width to the element */
+  box-shadow: inset 0 0 150px 50px rgba(0, 0, 0, 0.9);
+  pointer-events: none;
+  /* Essential so you can still click buttons underneath */
+  z-index: 999;
 }
 
 .tv-static {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: url('/assets/img/200w.gif');
-    opacity: 0.11; /* 100% - 89% = 11% visible grain for a subtle look */
-    pointer-events: none;
-    z-index: 998;
-    mix-blend-mode: screen; /* Blends the static naturally with your site content */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('/assets/img/200w.gif');
+  opacity: 0.11;
+  /* 100% - 89% = 11% visible grain for a subtle look */
+  pointer-events: none;
+  z-index: 998;
+  mix-blend-mode: screen;
+  /* Blends the static naturally with your site content */
 }
 
 
